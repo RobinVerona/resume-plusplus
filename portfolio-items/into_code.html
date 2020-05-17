@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Personal stylesheet-->
+    <link rel="stylesheet" href="../css/portfolio_style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <!-- Google Fonts (Fira sans) -->
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:200,400,600" rel="stylesheet">
+    <!-- Google Fonts (Open sans) -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+    <title>Into code</title>
+</head>
+
+<body class="bg">
+    <header class="mb-5">
+        <div class="container d-flex row mx-auto p-4">
+            <!--Profile img-->
+
+            <img class="img-fluid align-self-center" src="../assets/images/profile.png" alt="Robin Verona">
+            <div style="width: 20px;"></div>
+            <div class="profile align-self-center">
+                <!-- Profile content -->
+                <h1 class="name m-0 title text-light">Robin Verona</h1>
+                <h2 class="occupation m-0">Développeur web junior <br> en recherche d'alternance</h2>
+                <ul class="social pt-3">
+                    <li><a href="https://www.linkedin.com/in/robin-verona/" target="_blank"><i class="color_red fab fa-linkedin-in"></i></a></li>
+                    <li><a href="https://github.com/robverona" target="_blank"><i class="color_red fab fa-github"></i></a></li>
+
+                </ul>
+            </div>
+            <div class="align-self-center ml-auto pr-0">
+                <!-- Download resume btn -->
+                <a class="resume btn btn-outline btn-lg" target="_blank" href=""><i class="fas fa-file mr-2"></i>  TÉLÉCHARGER MON CV</a>
+                <!--Contact btn -->
+                <a class="contact bg_red btn btn-lg" data-toggle="modal" data-target="#modalContactForm" href=""><i class="fas fa-paper-plane mr-2"></i>  ME CONTACTER</a>
+            </div>
+            <!-- //container -->
+        </div>
+
+    </header>
+
+    <!-- CONTACT FORM MODAL -->
+    <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h4 class="modal-title w-100 font-weight-bold">Me contacter</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body mx-3">
+
+                    <form action="contact.php" method="post">
+                        <div>
+                            <label for="name">Nom :</label>
+                            <input type="text" id="name" class="form-control mb-2" name="name">
+                        </div>
+                        <div>
+                            <label for="mail">e-mail :</label>
+                            <input type="email" id="mail" class="form-control mb-2" name="email">
+                        </div>
+                        <div>
+                            <label for="msg">Message :</label>
+                            <textarea id="msg" class="form-textarea form-control mb-3" name="message"></textarea>
+                        </div>
+
+                        <div class="button modal-footer d-flex justify-content-center">
+                            <button class="send bg_red btn btn-unique" type="submit">Envoyer le message</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Page Content -->
+    <div class="container">
+        <a class="home" href="../index.html"><i class="fas fa-home bg_red btn btn-lg text-white mr-2"></i>Retourner sur la page principale</a>
+        <!-- Portfolio Item Heading -->
+        <h2 class="my-4 title title_dark">Into code
+            <small>Reprendre et ameliorer le site d'un autre groupe dans le cadre d'un projet</small>
+        </h2>
+
+        <!-- Portfolio Item Row -->
+        <div class="row">
+
+            <div class="col-md-6">
+                <img class="img-fluid mb-2 shadow" src="../assets/images/into_code/into_code_home.jpg" alt="home">
+                <img class="img-fluid mb-2" src="../assets/images/into_code/projetweb1-2mobile.png" alt="home">
+
+            </div>
+
+            <div class="col-md-6 detail mb-0">
+                <h3 class="my-3 subtitle title_dark">Description du projet</h3>
+                <p>Durant ce projet notre équipe devait reprendre le site web de projet web 1 d’une autre équipe et l’améliorer/mettre à jour le contenu, tout en respectant le travail original.</p>
+                <p>Parmi les axes d’amélioration possibles, nous avons identifiés le design un peu simple et peu moderne ainsi la non adaptabilité du site original.</p>
+
+                <p>Les collaborateurs du projet sont :</p>
+                <ul class="collab">
+                    <li class="mb-1">Julie Cervera <a target="_blank" href="https://github.com/JulieCervera" class="ml-3 mr-3"><i class="fab fa-github mr-1"></i>Github</a><a target="_blank" href="http://crvr.fr"><i class="fas fa-globe mr-1"></i>Portfolio</a></li>
+                    <li class="mb-1">Bilel Amraoui <a target="_blank" href="https://github.com/bilelamraoui" class="ml-3 mr-3"><i class="fab fa-github mr-1"></i>Github</a><a target="_blank" href="http://bilelamraoui.ovh/"><i class="fas fa-globe mr-1"></i>Portfolio</a></li>
+                </ul>
+
+                <h3 class="my-3 subtitle title_dark">Technologies utilisées dans ce projet</h3>
+                <ul>
+                    <li><i class="fab fa-html5 mr-2"></i>HTML</li>
+                    <li><i class="fab fa-css3-alt mr-2"></i>CSS</li>
+                    <li><i class="fas fa-paint-brush mr-2"></i>UX/UI Design</li>
+                </ul>
+
+                <h3 class="my-3 subtitle title_dark">Liens</h3>
+                <ul class="links">
+                    <li><a href="http://projetweb2.robverona.fr/" target="_blank"><i class="color_red fas fa-globe mr-2 mb-2"></i>Voir en ligne</a></li>
+                    <li><a href="https://github.com/robverona/projetWeb1-2_Front-end" target="_blank"><i class="color_red fab fa-github mr-2 mb-2"></i>Sources</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <!-- /.row -->
+
+        <!-- Related Projects Row -->
+        <!--
+        <h3 class="my-4 subtitle title_dark">Related Projects</h3>
+
+        <div class="row">
+
+            <div class="col-md-3 col-sm-6 mb-4">
+                <a href="#">
+            <img class="img-fluid" src="http://placehold.it/500x300" alt="">
+          </a>
+            </div>
+
+            <div class="col-md-3 col-sm-6 mb-4">
+                <a href="#">
+            <img class="img-fluid" src="http://placehold.it/500x300" alt="">
+          </a>
+            </div>
+
+            <div class="col-md-3 col-sm-6 mb-4">
+                <a href="#">
+            <img class="img-fluid" src="http://placehold.it/500x300" alt="">
+          </a>
+            </div>
+
+            <div class="col-md-3 col-sm-6 mb-4">
+                <a href="#">
+            <img class="img-fluid" src="http://placehold.it/500x300" alt="">
+          </a>
+            </div>
+
+        </div>
+-->
+        <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+
+
+    <!-- Optional JavaScript -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+</body>
+
+</html>

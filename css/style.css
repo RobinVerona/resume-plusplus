@@ -1,0 +1,244 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    header {
+        margin: auto;
+        text-align: center;
+    }
+
+    div.profile {
+        margin: auto;
+    }
+
+    header img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contact,
+    .resume {
+        text-align: center;
+        margin-bottom: 9px;
+    }
+
+    aside {
+        margin-top: 20px;
+    }
+
+}
+
+
+.bg {
+    /* background-color:  #dddddd; */
+    background-color: #eeeeee;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%239a9a9a' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+
+header {
+    background: black;
+    border-bottom: 7px solid #303030;
+
+
+}
+
+
+
+.title {
+    color: #eeeeee;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+
+}
+
+h2.occupation {
+    color: #bfbfbf;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    font-size: 17px;
+
+}
+
+.subtitle {
+    color: #eeeeee;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+}
+
+
+ul {
+    padding-left: 0;
+}
+
+ul.social li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+ul.social li i {
+    font-size: 36px;
+
+}
+
+
+.social li a i:hover {
+    color: white;
+}
+
+a.resume {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    border: 0.5px solid white;
+
+
+}
+
+a.contact,
+button.send {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+
+
+}
+
+div.modal h4,
+input {
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+div.md-form i {
+    color: #131313;
+}
+
+a.contact:hover {
+    background: white;
+    color: #c62b29;
+}
+
+a.resume:hover {
+    background: white;
+    color: black;
+}
+
+.bg_red {
+    background-color: #c62b29;
+}
+
+.color_red {
+    color: #c62b29;
+}
+
+div.about {
+    background: #c62b29;
+    color: #eeeeee;
+}
+
+div.about p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+div.about a {
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+aside {
+    /*    background: #131313;*/
+    color: #bbbbbb;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 200;
+    /*    box-shadow: 4px 4px 2px 1px rgba(37, 37, 37, 0.137);*/
+}
+
+aside ul li {
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+
+aside ul li i {
+    color: #eeeeee;
+    margin-right: 5px;
+}
+
+aside i {
+    color: #9a9a9a;
+    margin-right: 3px;
+}
+
+div.education {
+    background: #c62b29;
+    color: white;
+}
+
+div.education a {
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+div.education i {
+    color: white;
+}
+
+div.bg_black {
+    background: #1a1a1a;
+}
+
+.title-dark {
+    color: #303030;
+}
+
+small {
+    color: #787878;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 200;
+}
+
+.portfolio-item p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #303030;
+
+}
+
+.btn-viewmore {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+    color: white;
+
+}
+
+.btn-viewmore:hover {
+    background: black;
+    color: white;
+
+}
+
+.shadow {
+    box-shadow: 4px 4px 2px 1px rgba(37, 37, 37, 0.9);
+
+}
+
+strong {
+    font-weight: 600;
+}
+
+label {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    color: #303030;
+}
+
+span {
+    color: #eeeeee;
+    font-family: 'Open Sans', sans-serif;
+
+}
